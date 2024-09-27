@@ -14,9 +14,9 @@ config.read('config.ini')
 
 def started(stop):
     bot = mineflayer.createBot({
-      'host': config.get('server', 'host'),
-      'port': config.get('server', 'port'),
-      'username': config.get('bot', 'name')    })
+      'host': config.get('server', 'Sebextonline.aternos.me'),
+      'port': config.get('server', '36377'),
+      'username': config.get('bot', 'Sebext-MC-BOT')    })
     print('Start')
     
     @On(bot, "login")
